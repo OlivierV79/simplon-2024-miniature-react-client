@@ -7,7 +7,6 @@ import { useAuth, AuthProvider } from "../contexts/AuthContext";
 import { getNewestPosts, getTrendingPosts /*, getNewestPosts */ } from "../services/postService";
 
 const TRENDING_FEED=true;
-const NEWEST_FEED=true;
 
 function AppContent() {
   const { auth } = useAuth();
