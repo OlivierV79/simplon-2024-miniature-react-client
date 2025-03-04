@@ -1,10 +1,10 @@
-import React, { useState, useMemo, useEffect } from "react";
+import React, {useEffect, useMemo, useState} from "react";
 import "./App.css";
 import Post from "../components/Post";
 import Login from "../components/Login";
 import FeedSwitch from "../components/FeedSwitch";
-import { useAuth, AuthProvider } from "../contexts/AuthContext";
-import { getNewestPosts, getTrendingPosts /*, getNewestPosts */ } from "../services/postService";
+import {AuthProvider, useAuth} from "../contexts/AuthContext";
+import {getNewestPosts, getTrendingPosts} from "../services/postService";
 
 const TRENDING_FEED=true;
 
