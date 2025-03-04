@@ -44,7 +44,7 @@ function Login() {
         </button>
       </form>
       <button onClick={() => setIsLogin(!isLogin)}>
-        {isLogin ? 'Need to register ? -----------------> OLI' : 'Already have an account ?'}
+        {isLogin ? 'Need to register ? -----------------> OLII' : 'Already have an account ?'}
       </button>
     </div>
   );
