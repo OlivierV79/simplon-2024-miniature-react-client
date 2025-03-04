@@ -20,7 +20,7 @@ function Login() {
     if (!success) {
       setError(isLogin ? 'Login failed' : 'Registration failed');
     }
-  }, [isLogin, username, password]);
+  }, [isLogin, username, password, login, register]);
 
   return (
     <div className="login-container">
