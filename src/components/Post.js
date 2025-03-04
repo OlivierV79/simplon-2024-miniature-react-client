@@ -50,7 +50,7 @@ function Post({ id, username, avatar, attachments = [], getPost, getOwner, child
               );
             }
             case 'image':
-              return (<img key={`post-${id}-attachment-${index}`} src={attachment.image} />);
+              return (<img key={`post-${id}-attachment-${index}`} src={attachment.image} alt="" />);
             case 'link':
               return (<a key={`post-${id}-attachment-${index}`} href={attachment.link}>{attachment.link}</a>);
             default:
